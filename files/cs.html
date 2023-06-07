@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head>
+<body>
+<h1><span id="idTestJson"></span></h1><br/>
+<script>
+function testJson(obj) {
+    document.getElementById("idTestJson").innerHTML = "["+obj.addr+"]";
+}
+</script>
+<script src="http://whois.pconline.com.cn/ipJson.jsp?callback=testJson&ip=180.101.49.11"></script>
+
+</body>
+</html>
